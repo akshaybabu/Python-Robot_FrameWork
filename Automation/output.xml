@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.11.4 on win32)" generated="2024-08-17T23:23:49.317032" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCase1" source="G:\AkshayBabuWorkSpace\Python-Robot_FrameWork\Automation\TestCases\TestCase1.robot">
+<test id="s1-t1" name="LoginTest" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-17T23:23:49.637034" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/v1/'.</msg>
+<arg>https://www.saucedemo.com/v1/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-17T23:23:49.637034" elapsed="3.483167"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-08-17T23:23:53.138203" level="INFO">Typing text 'standard_user' into text field 'name:user-name'.</msg>
+<arg>name:user-name</arg>
+<arg>standard_user</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-17T23:23:53.137204" elapsed="0.554997"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-08-17T23:23:53.694202" level="INFO">Typing text 'secret_sauce' into text field 'name:password'.</msg>
+<arg>name:password</arg>
+<arg>secret_sauce</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-17T23:23:53.693202" elapsed="0.351998"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-08-17T23:23:54.047202" level="INFO">Clicking element 'id:login-button'.</msg>
+<arg>id:login-button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-17T23:23:54.046200" elapsed="0.916001"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-08-17T23:23:54.963199" elapsed="4.378442"/>
+</kw>
+<status status="PASS" start="2024-08-17T23:23:49.636032" elapsed="9.705609"/>
+</test>
+<status status="PASS" start="2024-08-17T23:23:49.319034" elapsed="10.024544"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestCase1">TestCase1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
