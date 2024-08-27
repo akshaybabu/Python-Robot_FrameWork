@@ -12,7 +12,4 @@ LoginTest
     click element   id:login-button
     close browser
 
-
-
-
 *** keywords ***

@@ -13,8 +13,10 @@ Handling DropDwons and Lists
     #Select an option from the browser
     
     Select From List By Index    dropdown    1
-    Sleep    2
-    Select From List By Value    dropdown    1
+    Sleep    5
+    Select From List By Value    dropdown    2
+    Sleep    10
+
 
 
 

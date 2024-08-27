@@ -1,6 +1,5 @@
 *** Settings ***
 Library  SeleniumLibrary
-
 *** Variables ***
 ${browser}  chrome
 ${url}  http://test.rubywatir.com/radios.php
